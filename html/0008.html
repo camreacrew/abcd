@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시간표</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 880px;
+            height: 600px;
+            border: 1px solid darkgray;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid darkgray;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid darkgray;
+            border-collapse: collapse;
+        }
+        .time {
+            text-align: center;
+        }
+        caption {
+            font-size: 2em;
+            letter-spacing: 1em;
+            font-weight: bold;
+        }
+        .kor {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            background-color: green;
+        }
+        .eng {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            background-color: blueviolet;
+        }
+        .math {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            background-color: pink;
+        }
+        .gym {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            background-color: red;
+        }
+        .history {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><b>시 간 표</b></caption>
+        <tr>
+            <th></th>
+            <th><b>월</b></th>
+            <th><b>화</b></th>
+            <th><b>수</b></th>
+            <th><b>목</b></th>
+            <th><b>금</b></th>
+        </tr>
+        <tr>
+            <td class="time"><b><i>1</i></b></td>
+            <td class="kor" rowspan="2">국 어</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time"><b><i>2</i></b></td>
+            <td class="math" rowspan="2">수 학</td>
+            <td class="eng" rowspan="2">영 어</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time"><b><i>3</i></b></td>
+            <td></td>
+            <td class="math" rowspan="3">수 학</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time"><b><i>4</i></b></td>
+            <td></td>
+            <td></td>
+            <td class="gym" rowspan="3">체 육</td>
+            <td class="eng" rowspan="2">영 어</td>
+        </tr>
+        <tr>
+            <td class="time"><b><i>5</i></b></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time"><b><i>6</i></b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="history">국 사</td>
+        </tr>
+    </table>
+</body>
+</html>

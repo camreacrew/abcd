@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <style>
+        #login {
+            width: 300px;
+            height: 400px;
+            padding: 30px 40px;
+            border: 1px solid black;
+            margin: 100px auto;
+        }
+
+        #login .container {
+            width: 300px;
+        }
+
+        #or {
+            margin: 24px 0;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #login input {
+            display: block;
+            width: 300px;
+            height: 45px;
+            border: 1px solid black;
+            padding:0 10px;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+
+        #login button[type="submit"] {
+            background-color: black;
+            color: white;
+            margin-bottom: 27px;
+            font-weight: normal;
+
+        }
+        
+        #login a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" id="login">
+        <div class="container">
+          <button type="button">
+            Google로 로그인
+          </button>
+        </div>
+        <p id="or">또는</p>
+        <div class="container">
+          <input type="text" id="username" name="username" placeholder="Username" >
+          <input type="password" id="password" name="password" placeholder="Password" >
+          <button type="submit">
+            로그인
+          </button>
+        </div>
+        <a href="#">비밀번호를 잊으셨나요?</p>
+      </form>
+</body>
+</html>
